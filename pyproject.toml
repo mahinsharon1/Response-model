@@ -1,0 +1,19 @@
+[project]
+name = "response-model"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mahinsharon1", email = "mahinsharon85@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.162.4",
+]
+
+[project.scripts]
+response-model = "response_model:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
